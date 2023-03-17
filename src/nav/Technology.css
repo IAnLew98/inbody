@@ -1,0 +1,62 @@
+#TechnologyWrap{
+    background: url(../img/n-tech-bg1.jpg) no-repeat center rgb(253, 251, 251);
+    background-size: cover;
+}
+#TechnologyWrap>h2{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+#TechnologyWrap>div{
+    margin-bottom: 200px;
+}
+#TechnologyWrap>div>ul{
+    display: flex;
+    width: 1438px;
+    margin: 0 auto;
+}
+#TechnologyWrap>div>ul>li{
+    width: 25%;
+}
+#TechnologyWrap>div>ul>li>div{
+    margin-bottom: 30px;
+    border-radius: 50%;
+    width: 290px;
+    height: 290px;
+}
+#TechnologyWrap>div>ul>li>#water{
+    background: url(../img/n-tech-what-thumb1.jpg) no-repeat center rgb(253, 251, 251);
+}
+#TechnologyWrap>div>ul>li>#protein{
+    background: url(../img/n-tech-what-thumb2.jpg) no-repeat center rgb(253, 251, 251);
+}
+#TechnologyWrap>div>ul>li>#mineral{
+    background: url(../img/n-tech-what-thumb3.jpg) no-repeat center rgb(253, 251, 251);
+}
+#TechnologyWrap>div>ul>li>#fat{
+    background: url(../img/n-tech-what-thumb4.jpg) no-repeat center rgb(253, 251, 251);
+}
+#BIA{
+    padding-top: 100px;
+    background-size: cover;
+    height: 480px;
+    background: url(../img/n-tech-img1.jpg) no-repeat 50% 50% rgb(0, 0, 0);
+    margin-bottom: 100px;
+}
+#BIA>div{
+    width: 1438px ;
+    margin: 0 auto ;
+}
+#BIA>div>h4{
+    font-weight: 600px;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+#BIA>div>p{
+    line-height: 20px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #ffffffdc;
+}

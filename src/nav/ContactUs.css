@@ -1,0 +1,157 @@
+
+#ContactWrap{
+    background: url(../img/contact.jpg) no-repeat center rgb(253, 251, 251);
+    height: 870px;
+    background-size: cover;
+}
+#ContactWrap>h2{    
+    padding: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+#ContactWrap>p{
+    text-align: center;
+    font-size: 28px;
+    padding: 170px 0;
+}
+#ContactWrap>div{
+        background-color: rgba(0, 0, 0, 0.233);
+        height: 423px;
+}
+#ContactWrap>div>ul{
+    padding-top: 40px;
+    justify-content: space-around;
+    display: flex;
+    width: 1438px;
+    margin: 0 auto;
+}
+#ContactWrap>div>ul>li>strong{
+    border-bottom: 1px solid red;
+    font-size: 30px;
+    font-weight: bold;
+   line-height: 60px;
+}
+
+
+
+#ContactInput>h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+#ContactInput{
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+#ContactInputWrap{
+    padding: 140px;
+    border: 2px solid #ddd;
+    width: 1438px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+
+
+
+#SelectSection{
+    display: flex;
+   
+}
+#SelectSection>div{
+    width: 50%;
+    padding: 13px;
+}
+#SelectSection>div>label{
+    display: block;
+    width: 100%;
+}
+#SelectSection>div>select{
+    background-color: #e7e7e7;
+    width: 100%;
+    height: 60px;
+    border-radius:3px;
+}
+.section{
+    display: flex;
+}
+.section>div{
+    padding: 20px ;
+    width: 50%;
+}
+.section>div>input{
+    border-radius: 3px;
+    border: 0.5px solid rgba(0, 0, 0, 0.418);
+    background-color: #e7e7e7;
+    height: 50px;
+    width: 100%;
+}
+.section1{
+    padding: 20px;
+}
+.section1>div>label{
+    display: block;
+    width: 100%;
+}
+.section1>div>input{
+    margin: 10px 0;
+    border: 0.5px solid rgba(0, 0, 0, 0.418);
+    border-radius: 3px;
+    background-color: #e7e7e7;
+    height: 80px;
+    width: 100%;
+}
+.section1>div>#inputText{
+    width: 48%;
+}
+.section2{
+    padding: 20px;
+}
+.section2>div>label{
+    display: block;
+    width: 100%;
+}
+.section2>div>textarea{
+    height: 150px;
+    width: 100%;
+    border: 0.5px solid rgba(0, 0, 0, 0.418);
+    border-radius: 3px;
+    background-color: #e7e7e7;
+}
+.checkbox{
+    margin-top: 80px;
+    overflow: hidden;
+}
+.checkbox>div>label>a{
+    text-decoration: none;
+    color: red;
+}
+#inputbtn{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 50px;
+    float: right;
+}
+
+
+#blackbtn{
+    background-color: #fff;
+    border-radius: 40px;
+    width: 180px;
+    height: 70px;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+#redbtn{  
+    background-color: #fff;
+    border-radius: 40px;
+    width: 180px;
+    height: 70px;
+    border: 1px solid red;
+    color: red;
+}
+.redS{
+    color: red;
+}

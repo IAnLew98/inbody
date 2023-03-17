@@ -1,0 +1,80 @@
+#HomeUse{
+    padding-top: 150px;
+
+}
+#HomeUseWrap>h2{
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+}
+#HomeUseWrap>figure{
+    padding-top: 50px;
+    position: relative;
+}
+#HomeUseWrap>figure>img{
+    width: 100%; 
+}
+
+#HomeUseWrap>figure>figcaption>#band>a{
+    font-size: 20px;
+    position: absolute;
+    top: 17%;
+    left: 19%;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(182, 52, 52, 0.596);
+}
+#HomeUseWrap>figure>figcaption>#band>a:hover{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #ffffff00;
+}
+#HomeUseWrap>figure>figcaption>#dial>a{
+    font-size: 20px;
+    position: absolute;
+    top: 22%;
+    right: 22%;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(182, 52, 52, 0.596);
+}
+#HomeUseWrap>figure>figcaption>#dial>a:hover{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #ffffff00;
+}
+#HomeUseWrap>figure>figcaption>#inlab>a{
+    font-size: 20px;
+    position: absolute;
+    bottom: 58%;
+    left: 30%;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(182, 52, 52, 0.596);
+}
+#HomeUseWrap>figure>figcaption>#inlab>a:hover{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #ffffff00;
+}
+#HomeProduct{
+      width: 1438px;
+      margin: 0 auto;
+}
+#HomeProductWrap{
+    display: flex;
+}
+
+#HomeProductWrap>figure{
+    box-sizing: border-box;
+    border: 1px solid #000;
+    overflow: hidden;
+    width: 33.3333%;
+}
+#HomeProductWrap>figure>img{
+    width: 100%;
+}
